@@ -1,0 +1,36 @@
+<module>
+	<data>
+		<module_id>usefulblocks</module_id>
+		<product_id>mcefox_useful_blocks</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>1</is_menu>
+		<menu />
+		<phrase_var_name>module_usefulblocks</phrase_var_name>
+	</data>
+	<blocks>
+		<block type_id="0" m_connection="core.index-member" module_id="usefulblocks" component="friendrequest" location="3" is_active="1" ordering="13" disallow_access="" can_move="0">
+			<title>Mcefox Friend Request</title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="core.index-member" module_id="usefulblocks" component="upcommingevents" location="3" is_active="1" ordering="14" disallow_access="" can_move="0">
+			<title>Mcefox Upcomming Events</title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="core.index-member" module_id="usefulblocks" component="newpages" location="3" is_active="1" ordering="15" disallow_access="" can_move="0">
+			<title>Mcefox New Pages</title>
+			<source_code />
+			<source_parsed />
+		</block>
+	</blocks>
+	<components>
+		<component module_id="usefulblocks" component="friendrequest" m_connection="" module="usefulblocks" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="usefulblocks" component="newpages" m_connection="" module="usefulblocks" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="usefulblocks" component="upcommingevents" m_connection="" module="usefulblocks" is_controller="0" is_block="1" is_active="1" />
+	</components>
+	<phrases>
+		<phrase module_id="usefulblocks" version_id="3.7.7" var_name="module_usefulblocks" added="1422885903">Useful Blocks</phrase>
+	</phrases>
+</module>
