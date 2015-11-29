@@ -12,14 +12,14 @@ class UsefulBlocks_Component_Block_People_You_May_Know extends Phpfox_Component
 	 */
 	public function process()
 	{
-		list($iCnt, $aUsers) = Phpfox::getService('friend.request')->get();
+		list($iCnt, $aPeopleYouMayKnows) = Phpfox::getService('usefullblocks')->getPeopleYouMayKnow();
 		
 		if($iCnt == 0){
 			return false;
 		}
 
 		$this->template()->assign(array(
-				'aUsers' => $aUsers
+				'aPeopleYouMayKnows' => $aPeopleYouMayKnows
 			)
 		);
 	}
